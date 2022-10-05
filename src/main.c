@@ -80,7 +80,7 @@ int main(int argc, const char** argv) {
     return 1;
   }
 
-  for (int i = 0; i < argc; ++i) {
+  for (int i = 1; i < argc; ++i) {
     process(argv[i]);
   }
 
